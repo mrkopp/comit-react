@@ -8,7 +8,7 @@ let nextCity;
 
 
 city = "Saskatoon";
-age = 31;
+age = 30;
 nextCity = city;
 
 console.log('Month of Birth: ', monthOfBirth)
