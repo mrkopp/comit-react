@@ -59,14 +59,28 @@
 
 // length('Mitch');
 
-function matchHouses(step) {
-	const matchsticks = 6
-	if (step = 1) {
-		return 6
-	} else if (step = 0) {
-		return 0
-    } else {
-		return ((step * matchsticks) - (step - 1))
-    }
-}
-matchHouses(6);
+// function matchHouses(step) {
+//     const matchsticks = 6
+// 	if (step = 1) {
+// 		return 6
+// 	} else if (step = 0) {
+// 		return 0
+//     } else {
+// 		return ((step * matchsticks) - (step - 1))
+//     }
+// }
+// matchHouses(6);
+
+// let money = 1e-6;
+
+// console.log(money);
+
+
+const user = {
+    username: 'oz',
+    password: 'pass',
+  };
+  
+  const { username, password } = user;
+  
+  console.log(username, password);
